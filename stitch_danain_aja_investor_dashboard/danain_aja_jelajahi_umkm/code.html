@@ -1,0 +1,941 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary":"#006494","surface-container-low":"#eef4ff","on-error-container":"#93000a","primary":"#005eab","tertiary":"#006b49","on-background":"#021d33","surface-container-high":"#dae9ff","surface-container-highest":"#d0e4ff","on-tertiary-container":"#ffffff","on-primary-fixed-variant":"#004784","on-tertiary-fixed":"#002113","on-surface":"#021d33","tertiary-fixed-dim":"#4edea3","secondary-fixed-dim":"#8ecdff","surface-container-lowest":"#ffffff","on-error":"#ffffff","on-secondary-container":"#004e74","primary-container":"#1677d2","surface-variant":"#d0e4ff","inverse-surface":"#1a324a","on-primary-fixed":"#001c3a","surface-container":"#e4efff","inverse-primary":"#a5c8ff","on-secondary-fixed":"#001e30","secondary-fixed":"#cbe6ff","surface":"#f8f9ff","background":"#f8f9ff","error":"#ba1a1a","surface-dim":"#c5dcfb","tertiary-fixed":"#6ffbbe","inverse-on-surface":"#e9f1ff","on-primary-container":"#fffeff","surface-tint":"#005fad","on-surface-variant":"#414752","primary-fixed":"#d4e3ff","on-secondary-fixed-variant":"#004b71","tertiary-container":"#00875d","outline-variant":"#c1c7d4","outline":"#717783","on-primary":"#ffffff","primary-fixed-dim":"#a5c8ff","on-tertiary-fixed-variant":"#005236","on-tertiary":"#ffffff","surface-bright":"#f8f9ff","error-container":"#ffdad6","secondary-container":"#6dc1fd","on-secondary":"#ffffff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"2rem","space-sm":"0.5rem","space-lg":"1.5rem","gutter-mobile":"1rem","space-2xl":"3rem","margin-mobile":"1rem","space-md":"1rem","space-xl":"2rem","gutter":"1.5rem","space-xs":"0.25rem"},fontFamily:{"numeric-md":["Inter"],"label-md":["Inter"],"headline-xl-mobile":["Inter"],"body-lg":["Inter"],"headline-lg-mobile":["Inter"],"body-md":["Inter"],"label-sm":["Inter"],"headline-lg":["Inter"],"numeric-xl":["Inter"],"label-lg":["Inter"],"body-sm":["Inter"],"headline-xl":["Inter"],"headline-md":["Inter"],"headline-sm":["Inter"]},fontSize:{"numeric-md":["18px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.015em","fontWeight":"600"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-lg-mobile":["22px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"numeric-xl":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-xl":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["16px",{"lineHeight":"24px","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-screen w-[260px] bg-surface-container-lowest border-r border-outline-variant/30 z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="p-space-lg border-b border-outline-variant/20 flex flex-col gap-space-xs"><div class="w-full flex items-center justify-start py-1"><img src="https://lh3.googleusercontent.com/aida/ALJJyrBW9-u63bPp2ZNyC-Lv1vLTRmSwFMbU7CbZHhz88tOEjB9piCscTYQGRWvAWMxy2qFIbBauhfMGwq7Bl6c_Qe8s82B4itUsHA8fXO1OtyMxY_sZU_dG6opviFbVHVzDtZbb3RiZtaIEPgLrm9OYhGm87D86YV4QEK7semn7arX4q5n6vurQbQuUoWeMCIBgUVzKqJfRVgYw5leQj9VXbXHotJY0byPCy9XZ0KkHtRF_" alt="DanaIn Aja Logo" class="h-14 w-auto max-w-full object-contain"></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-tight mt-1">Investasi Lebih Mudah, Masa Depan Lebih Terarah.</p></div><nav class="flex flex-col py-space-md px-space-sm gap-space-xs" data-active-classes="bg-surface-container-low text-primary font-label-lg font-semibold border-l-4 border-primary rounded-r-lg"><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all font-body-md text-body-md" data-path="danain-aja-investor-dashboard" href="#"><span class="material-symbols-outlined text-xl">dashboard</span><span>Dashboard</span></a><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm transition-all bg-surface-container-low text-primary font-label-lg font-semibold border-l-4 border-primary rounded-r-lg" data-path="jelajahi-umkm" href="#"><span class="material-symbols-outlined text-xl">storefront</span><span>Jelajahi UMKM</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all font-body-md text-body-md" data-path="pendanaan-saya" href="#"><span class="material-symbols-outlined text-xl">account_balance_wallet</span><span>Pendanaan Saya</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all font-body-md text-body-md" data-path="aktivitas" href="#"><span class="material-symbols-outlined text-xl">schedule</span><span>Aktivitas</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all font-body-md text-body-md" data-path="laporan-usaha" href="#"><span class="material-symbols-outlined text-xl">assessment</span><span>Laporan Usaha</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all font-body-md text-body-md" data-path="edukasi" href="#"><span class="material-symbols-outlined text-xl">school</span><span>Edukasi</span></a><div class="my-space-xs border-t border-outline-variant/20 mx-space-sm"></div><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all font-body-md text-body-md" data-path="pengaturan" href="#"><span class="material-symbols-outlined text-xl">settings</span><span>Pengaturan</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all font-body-md text-body-md" data-path="bantuan" href="#"><span class="material-symbols-outlined text-xl">help</span><span>Bantuan</span></a></nav></div><div class="p-space-md border-t border-outline-variant/20 bg-surface-container-lowest"><div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low/50"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjag90YrENC3txE3lv_XhdGe_5fqb6_9pBGqm3_6yGE8VB4Ua3LH0-5Y7dd8_rmzqKhc_0ci5k_irLAuD6Y1wiSEk0pu-e0tkSQag20RGKoBBtplCEkFURBb9JgD9t2Mg_vAUkOoZKJTxX69AhApU8X0uRSorYXAILM74irm5kQpUegfQad9YUWu-kfcHTKB0GDdHmbUUcYV8nl3wtNPw1ZAmzVWMh5Erx9jgmR4k"><div class="flex flex-col min-w-0 flex-1"><span class="font-label-lg text-label-lg text-on-surface truncate">Budi Santoso</span><div class="flex items-center gap-1"><span class="inline-flex items-center px-2 py-0.5 rounded-full font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed-variant">Investor</span></div></div></div></div></aside><div class="pl-[260px]"><header class="fixed top-0 left-[260px] right-0 h-[72px] bg-surface-container-lowest/90 backdrop-blur-xl border-b border-outline-variant/30 z-40 px-space-xl flex items-center justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex items-center gap-space-lg"><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface">Katalog Investasi UMKM</span><span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">Simulasi Mode</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Telusuri dan danai bisnis UMKM potensial di Indonesia</span></div></div><div class="flex-1 max-w-md mx-space-xl"><div class="relative flex items-center w-full"><span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-lg">search</span><input class="w-full pl-9 pr-4 py-2 bg-surface rounded-lg border border-outline-variant/40 text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant focus:outline-none focus:border-primary-container focus:ring-1 focus:ring-primary-container transition-all" placeholder="Cari peluang UMKM, kategori, atau wilayah..." type="text"></div></div><div class="flex items-center gap-space-md"><div class="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-low text-secondary font-label-md text-label-md"><span class="w-2 h-2 rounded-full bg-secondary"></span><span>Peran: Investor</span></div><button class="relative p-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors" type="button"><span class="material-symbols-outlined text-xl">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-error"></span></button><a class="inline-flex items-center gap-space-xs px-space-md py-2 rounded-lg bg-primary-container text-on-primary-container font-label-lg text-label-lg hover:bg-primary transition-colors shadow-sm" data-path="jelajahi-umkm" href="#"><span class="material-symbols-outlined text-sm">add</span><span>Eksplor UMKM</span></a><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjag90YrENC3txE3lv_XhdGe_5fqb6_9pBGqm3_6yGE8VB4Ua3LH0-5Y7dd8_rmzqKhc_0ci5k_irLAuD6Y1wiSEk0pu-e0tkSQag20RGKoBBtplCEkFURBb9JgD9t2Mg_vAUkOoZKJTxX69AhApU8X0uRSorYXAILM74irm5kQpUegfQad9YUWu-kfcHTKB0GDdHmbUUcYV8nl3wtNPw1ZAmzVWMh5Erx9jgmR4k"><span class="material-symbols-outlined text-on-surface-variant text-base cursor-pointer">expand_more</span></div></div></header><div class="pt-[72px] bg-surface min-h-screen flex flex-col justify-between"><div class="w-full bg-secondary-fixed/50 border-b border-outline-variant/30 px-space-xl py-space-xs flex items-center justify-center gap-space-sm"><span class="material-symbols-outlined text-secondary text-base">info</span><span class="font-body-sm text-body-sm text-on-secondary-fixed-variant font-medium">Mode Prototipe Edukasi: Semua data finansial dan profil UMKM bersifat simulasi demo.</span></div><main class="w-full px-space-xl py-space-lg flex-1 bg-surface"><div class="flex flex-col w-full">
+<!-- BREADCRUMB & PAGE HEADER -->
+<section class="flex flex-col gap-space-xs mb-space-lg">
+<nav class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-sm">dashboard</span>
+<span>Dashboard</span>
+</a>
+<span class="text-outline-variant">/</span>
+<span class="text-primary font-semibold">Jelajahi UMKM</span>
+</nav>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pt-space-xs">
+<div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">Jelajahi UMKM</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">Temukan dan dukung perkembangan usaha lokal Indonesia secara terarah.</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          35 Peluang Terbuka
+        </span>
+</div>
+</div>
+</section>
+<!-- INTRODUCTORY BANNER -->
+<section class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-low p-space-lg md:p-space-xl mb-space-lg shadow-sm">
+<div class="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute right-1/4 -bottom-20 w-48 h-48 rounded-full bg-primary/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg">
+<div class="max-w-2xl flex flex-col gap-space-sm">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-lowest text-primary text-label-sm font-label-sm w-fit shadow-sm">
+<span class="material-symbols-outlined text-sm text-tertiary">verified</span>
+<span>Kurasi Transparan &amp; Terarah</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold tracking-tight">
+          Bersama Kembangkan UMKM Indonesia
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Temukan berbagai usaha lokal potensial dan pelajari kebutuhan permodalan mereka secara terbuka. Seluruh data proyeksi dikurasi untuk kenyamanan evaluasi portofolio Anda.
+        </p>
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<button class="inline-flex items-center gap-2 px-space-md py-2.5 rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg shadow-sm hover:bg-surface-container-high transition-all" onclick="openWorkingsModal()" type="button">
+<span class="material-symbols-outlined text-base">info</span>
+<span>Pelajari Cara Kerja</span>
+</button>
+<div class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-secondary-fixed/40 text-on-secondary-fixed-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-base text-secondary">verified_user</span>
+<span>Mode Simulasi Marketplace • Simulasi Edukasi Finansial</span>
+</div>
+</div>
+</div>
+<!-- Decorative SVG mini visual -->
+<div class="hidden lg:flex items-center justify-center p-space-md bg-surface-container-lowest/80 backdrop-blur-md rounded-xl shadow-sm max-w-xs w-full">
+<div class="flex flex-col gap-space-xs w-full">
+<div class="flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
+<span>Rerata Target Terpenuhi</span>
+<span class="text-tertiary font-bold">63.2%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container">
+<div class="h-2 rounded-full bg-tertiary w-[63%]"></div>
+</div>
+<div class="flex items-center justify-between pt-2 text-label-sm font-label-sm text-on-surface-variant">
+<span>Total Nilai Komitmen</span>
+<span class="text-primary font-bold">Rp 2.45 M</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3 COMPACT STATISTIC / ECOSYSTEM CARDS -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-space-md mb-space-lg">
+<!-- Stat 1 -->
+<div class="flex items-center gap-space-md p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-2xl">storefront</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-numeric-xl text-numeric-xl text-on-surface font-bold leading-none">120+</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">UMKM</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate mt-0.5">Total UMKM Terdaftar</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Usaha terverifikasi kurasi awal (Simulasi)</span>
+</div>
+</div>
+<!-- Stat 2 -->
+<div class="flex items-center gap-space-md p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed/30 flex items-center justify-center text-tertiary flex-shrink-0">
+<span class="material-symbols-outlined text-2xl">handshake</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-numeric-xl text-numeric-xl text-on-surface font-bold leading-none">35</span>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">Batch Aktif</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate mt-0.5">Peluang Pendanaan Aktif</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Kampanye siap didukung per Mei 2025</span>
+</div>
+</div>
+<!-- Stat 3 -->
+<div class="flex items-center gap-space-md p-space-md rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed/50 flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-2xl">pie_chart</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-baseline gap-1.5">
+<span class="font-numeric-xl text-numeric-xl text-on-surface font-bold leading-none">7</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Klaster</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate mt-0.5">Sektor Usaha Produktif</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Kuliner, Agribisnis, Kriya, &amp; Jasa</span>
+</div>
+</div>
+</section>
+<!-- MARKETPLACE SEARCH, FILTERS & CONTROLS -->
+<section class="bg-surface-container-lowest rounded-2xl p-space-md md:p-space-lg shadow-sm mb-space-lg flex flex-col gap-space-md">
+<!-- Row 1: Search and Dropdowns -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-sm items-center">
+<div class="md:col-span-4 relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-lg">search</span>
+<input class="w-full pl-9 pr-4 py-2.5 bg-surface rounded-lg text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container transition-all" id="searchInput" placeholder="Cari nama UMKM atau jenis usaha..." type="text">
+</div>
+<div class="md:col-span-3">
+<div class="relative">
+<select class="w-full appearance-none pl-3 pr-8 py-2.5 bg-surface rounded-lg text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary-container transition-all cursor-pointer" id="locationSelect">
+<option value="all">Semua Lokasi</option>
+<option value="Bandung">Bandung, Jawa Barat</option>
+<option value="Jakarta">Jakarta Selatan, DKI</option>
+<option value="Yogyakarta">Yogyakarta, D.I.Y.</option>
+<option value="Bogor">Bogor, Jawa Barat</option>
+<option value="Surabaya">Surabaya, Jawa Timur</option>
+<option value="Solo">Solo, Jawa Tengah</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-3 text-on-surface-variant text-base pointer-events-none">expand_more</span>
+</div>
+</div>
+<div class="md:col-span-3">
+<div class="relative">
+<select class="w-full appearance-none pl-3 pr-8 py-2.5 bg-surface rounded-lg text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary-container transition-all cursor-pointer" id="sortSelect">
+<option value="progress">Urutkan: Progres Pendanaan</option>
+<option value="target_desc">Target Pendanaan Terbesar</option>
+<option value="target_asc">Target Pendanaan Terkecil</option>
+<option value="newest">Paling Baru Dirilis</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-3 text-on-surface-variant text-base pointer-events-none">sort</span>
+</div>
+</div>
+<div class="md:col-span-2 flex items-center justify-end">
+<button class="w-full py-2.5 px-3 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors flex items-center justify-center gap-1.5" onclick="resetFilters()" type="button">
+<span class="material-symbols-outlined text-sm">restart_alt</span>
+<span>Reset Filter</span>
+</button>
+</div>
+</div>
+<!-- Row 2: Category Filter Chips -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 no-scrollbar">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mr-2 flex-shrink-0">Sektor:</span>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-primary text-on-primary shadow-sm flex items-center gap-1 flex-shrink-0" onclick="setCategoryFilter('all', this)">
+<span>Semua</span>
+<span class="text-label-sm px-1.5 py-0.2 rounded-full bg-white/20">35</span>
+</button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0" onclick="setCategoryFilter('Kuliner', this)">
+<span>Kuliner</span>
+<span class="text-label-sm px-1.5 py-0.2 rounded-full bg-surface-container-high text-primary">14</span>
+</button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0" onclick="setCategoryFilter('Agribisnis', this)">
+<span>Agribisnis</span>
+<span class="text-label-sm px-1.5 py-0.2 rounded-full bg-surface-container-high text-primary">8</span>
+</button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0" onclick="setCategoryFilter('Kerajinan', this)">
+<span>Kerajinan</span>
+<span class="text-label-sm px-1.5 py-0.2 rounded-full bg-surface-container-high text-primary">5</span>
+</button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0" onclick="setCategoryFilter('Fashion', this)">
+<span>Fashion</span>
+<span class="text-label-sm px-1.5 py-0.2 rounded-full bg-surface-container-high text-primary">4</span>
+</button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0" onclick="setCategoryFilter('Teknologi', this)">
+<span>Teknologi</span>
+<span class="text-label-sm px-1.5 py-0.2 rounded-full bg-surface-container-high text-primary">2</span>
+</button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0" onclick="setCategoryFilter('Jasa', this)">
+<span>Jasa</span>
+<span class="text-label-sm px-1.5 py-0.2 rounded-full bg-surface-container-high text-primary">2</span>
+</button>
+</div>
+</section>
+<!-- SECTION HEADING & CONTROLS -->
+<section class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">UMKM Pilihan</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Menampilkan 6 dari 35 peluang usaha aktif siap didukung</p>
+</div>
+<div class="flex items-center gap-1 p-1 bg-surface-container-lowest rounded-lg shadow-sm">
+<button class="p-1.5 rounded bg-surface-container-high text-primary transition-all" id="viewGridBtn" onclick="toggleView('grid')">
+<span class="material-symbols-outlined text-lg leading-none">grid_view</span>
+</button>
+<button class="p-1.5 rounded text-on-surface-variant hover:text-on-surface transition-all" id="viewListBtn" onclick="toggleView('list')">
+<span class="material-symbols-outlined text-lg leading-none">view_list</span>
+</button>
+</div>
+</section>
+<!-- UMKM CARDS GRID (6 CARDS) -->
+<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-space-lg mb-space-xl" id="umkmContainer">
+<!-- CARD 1: Kopi Langit Artisan Roast -->
+<div class="umkm-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="Kuliner" data-location="Bandung" data-name="Kopi Langit Artisan Roast">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Indonesian barista and master roaster inspecting aromatic roasted arabica coffee beans near a modern roaster drum in a sunlit Bandung roastery workshop. Warm ambient lighting, deep rich brown coffee beans, subtle metallic machinery accents, clean high-end commercial aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU9aKtS_EAPXlwP-izX_9d3vfiJG5MVfozGQHGxPNHCKsKOGK0WUxsVkaAVcAQXIczSYPo7gbEU6N8UVUtC1e8bK5Dq1-6c08Nr03jj3-AW_jq-g24iQeVU_DwfbJIdyWbTCRcMok_Go4QcyJzURDloWhUI2MSa2cBxTwrK5zEjZ_QqmTs_UCb6OTNjChimIcjUh6xoznK1fVpKcZoOlM3mu6RCPCDIZGCPMJN7XM">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-semibold shadow-sm">Kuliner</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Pendanaan Aktif</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-white text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Bandung, Jawa Barat</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+            Kopi Langit Artisan Roast
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 leading-relaxed">
+            Produsen kopi arabika lokal khas Priangan dengan jaringan 12 petani binaan dan kedai roastery modern dengan standar ekspor.
+          </p>
+</div>
+<div class="bg-surface-container-low/60 rounded-xl p-3 flex flex-col gap-2">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-on-surface-variant">Terkumpul: <strong class="text-on-surface">Rp 32.000.000</strong></span>
+<span class="font-bold text-primary">64%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-2 rounded-full bg-primary-container transition-all" style="width: 64%"></div>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant pt-0.5">
+<span>Target: Rp 50.000.000</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">group</span> 24 Backer
+            </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-secondary">schedule</span>
+<span>14 Hari Tersisa</span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary shadow-sm transition-all" onclick="openDetailModal('kopi-langit')" type="button">
+<span>Lihat Detail</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 2: Tani Sejahtera Hidroponik -->
+<div class="umkm-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="Agribisnis" data-location="Bogor" data-name="Tani Sejahtera Hidroponik">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern indoor agricultural greenhouse facility in Bogor Indonesia showcasing lush green butterhead lettuce in automated hydroponic water channels. Soft natural daylight filtering through diffuse greenhouse roofs, vibrant emerald green foliage, clean technical irrigation channels." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuiZAcc0aDiHaUat0ODMRjZd9VGT-W-6ggl-uITjA0QpFwIqeCrSz0xXu08pr4jVn5gVqT-mQSPuPx-jS2rlqcHnmKf1-aVOrnQj6mwucAX8irCmVQzGrOvYGRzfqz9hSnNO0AjqHPYy00ZryOxLkslXfckPr2Zqrrjv_Yet4zuBYIFIDs8n6MGAd7TvaBSfzMXUTj-los1C6OIFBAXp-Lam1hUVxeuxpF1cdrGmo">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Agribisnis</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Pendanaan Aktif</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-white text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Bogor, Jawa Barat</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+            Tani Sejahtera Hidroponik
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 leading-relaxed">
+            Pertanian sayuran organik hidroponik modern yang menyuplai 24 supermarket dan hotel terkemuka di area Jabodetabek.
+          </p>
+</div>
+<div class="bg-surface-container-low/60 rounded-xl p-3 flex flex-col gap-2">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-on-surface-variant">Terkumpul: <strong class="text-on-surface">Rp 45.000.000</strong></span>
+<span class="font-bold text-primary">60%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-2 rounded-full bg-primary-container transition-all" style="width: 60%"></div>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant pt-0.5">
+<span>Target: Rp 75.000.000</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">group</span> 38 Backer
+            </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-secondary">schedule</span>
+<span>21 Hari Tersisa</span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary shadow-sm transition-all" onclick="openDetailModal('tani-sejahtera')" type="button">
+<span>Lihat Detail</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 3: Anyam Kita Sustainable Craft -->
+<div class="umkm-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="Kerajinan" data-location="Yogyakarta" data-name="Anyam Kita Sustainable Craft">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal craft workshop in Yogyakarta featuring Javanese craftswomen weaving sustainable bamboo and organic rattan basketry decor. Warm earthy tones, delicate handcrafting details, sunbeams shining through woven window panels, pristine aesthetic exhibition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9t0v6QRMdoRd1zj7dw-SpZcdfNQNRh8-jzw4lp_fQHtLL7u9wOk83tbj0H3i-dBf3G_T3tewqc_yichYEna570r-R5XGTz-YF4GYfg2d2VDCHxC8QZwuLn58oDc7DhjXrLCew-UjJl0sAgQCCbL1htKHW03HaSaYARASnkAxMpqigFccdY0__A_vDYSwJ3jCrJxjq3i8mRbgWR8nLQkLYf00Z-VILZMlwytIXdO8">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed-dim text-on-secondary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Kerajinan</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Pendanaan Aktif</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-white text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Yogyakarta, D.I.Y.</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+            Anyam Kita Sustainable Craft
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 leading-relaxed">
+            Pemberdayaan perajin anyaman bambu &amp; serat alam ramah lingkungan untuk produk dekorasi interior kualitas ekspor ke Eropa.
+          </p>
+</div>
+<div class="bg-surface-container-low/60 rounded-xl p-3 flex flex-col gap-2">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-on-surface-variant">Terkumpul: <strong class="text-on-surface">Rp 18.000.000</strong></span>
+<span class="font-bold text-primary">60%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-2 rounded-full bg-primary-container transition-all" style="width: 60%"></div>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant pt-0.5">
+<span>Target: Rp 30.000.000</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">group</span> 22 Backer
+            </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-secondary">schedule</span>
+<span>9 Hari Tersisa</span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary shadow-sm transition-all" onclick="openDetailModal('anyam-kita')" type="button">
+<span>Lihat Detail</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 4: Batik Nusantara Heritage -->
+<div class="umkm-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="Fashion" data-location="Solo" data-name="Batik Nusantara Heritage">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional Indonesian heritage batik workshop in Solo Central Java. Master craftsperson applying wax using copper canting tool onto organic handwoven cotton cloth with authentic indigo plant dye nearby. Intricate geometric motifs, rich artisanal depth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbiR1ny3NHixUmQw_GeUFssq2ZrNSP2_bkKX3E7u9uXxLLpmmwalBxxFp06vw1twWbjVmun2U8I2m-irVfcaIW_flLKAV4pW84VZSkJ4wVhRJHNuwGP81Y-hlTt4VMwvPhlfH96kmYqoXJV2GwuTwvoFZfSUQ9dIGDeWVA0QJ08aCHSaB5QJPAUOQzYUO9a-Y3IeQeBwzc0VWftMkEEXcZXv6McdtXegaL4Rma1js">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-semibold shadow-sm">Fashion</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Pendanaan Aktif</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-white text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Solo, Jawa Tengah</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+            Batik Nusantara Heritage
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 leading-relaxed">
+            Koleksi busana batik tulis dan cap pewarna alami ramah lingkungan berdaya pakai harian untuk segmen profesional muda.
+          </p>
+</div>
+<div class="bg-surface-container-low/60 rounded-xl p-3 flex flex-col gap-2">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-on-surface-variant">Terkumpul: <strong class="text-on-surface">Rp 12.000.000</strong></span>
+<span class="font-bold text-primary">30%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-2 rounded-full bg-primary-container transition-all" style="width: 30%"></div>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant pt-0.5">
+<span>Target: Rp 40.000.000</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">group</span> 15 Backer
+            </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-secondary">schedule</span>
+<span>28 Hari Tersisa</span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary shadow-sm transition-all" onclick="openDetailModal('batik-nusantara')" type="button">
+<span>Lihat Detail</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 5: Rasa Lokal Bumbu & Sambal -->
+<div class="umkm-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="Kuliner" data-location="Jakarta" data-name="Rasa Lokal Bumbu &amp; Sambal">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern high-standard commercial central kitchen in South Jakarta preparing packaged authentic Indonesian chili paste sambal in sterile retort pouch packaging. Stainless steel tables, spotless hygienic uniforms, colorful red chili spices and herbs in foreground." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzQS_qGsrdnbSr86tns41kOTnGYDQHTAhgltloR971ieR3tM64AZkQbp5hb1y_Xzlg39gPnkd6WiNKmyNZCqtJODvJdIRs-LYGdvh6KPF2gxZwplqAvUq3XEe429e31Xv5mm5-pD-t-GE8i0EzcagAZA7N6sDJUL6EiLrlVTC6hZGEKBYy_72axOliEsbIB75J2rcKUiCyB4zJ230TevVwBO6lWgdPCkES3CzOfkQ">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-semibold shadow-sm">Kuliner</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Pendanaan Aktif</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-white text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Jakarta Selatan, DKI</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+            Rasa Lokal Bumbu &amp; Sambal
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 leading-relaxed">
+            Pengolahan aneka varian sambal nusantara kemasan pouch retort higienis dengan masa simpan 12 bulan tanpa bahan pengawet buatan.
+          </p>
+</div>
+<div class="bg-surface-container-low/60 rounded-xl p-3 flex flex-col gap-2">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-on-surface-variant">Terkumpul: <strong class="text-on-surface">Rp 42.000.000</strong></span>
+<span class="font-bold text-primary">70%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-2 rounded-full bg-primary-container transition-all" style="width: 70%"></div>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant pt-0.5">
+<span>Target: Rp 60.000.000</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">group</span> 49 Backer
+            </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-secondary">schedule</span>
+<span>11 Hari Tersisa</span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary shadow-sm transition-all" onclick="openDetailModal('rasa-lokal')" type="button">
+<span>Lihat Detail</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 6: Fresh Harvest Agrotech -->
+<div class="umkm-card bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group" data-category="Agribisnis" data-location="Surabaya" data-name="Fresh Harvest Agrotech">
+<div class="relative h-48 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cold chain fruit and vegetable post-harvest grading warehouse in Surabaya East Java. Workers in hygienic caps packing fresh dragon fruits and leafy greens into standardized aerated wooden and plastic crates under clean industrial LED lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzFuTgBSIrZwJgMnn8xZCDP71zJAuQ9HW2UqU7j-tsXHtvKbVpJrwW6xDPYx810T3gsXqiiYikNhhUOxzcdsAuhCA7P4rXvq2oy08Q-_u1BuFB1IjMJjnjP2Dq9HyacYP1l8x_Fy1vSyrMGrf1rM3UyWk0kg77ZnRFTbrguwULaz0EGNBHxsDQyN7TZlp4K27_KgsopI3tZF8cwhDMK37lCaah4Alz3LKuMKzQ50s">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Agribisnis</span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Pendanaan Aktif</span>
+</div>
+<button class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shadow-sm" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-lg">bookmark</span>
+</button>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-white text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-sm">location_on</span>
+<span>Surabaya, Jawa Timur</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors leading-snug">
+            Fresh Harvest Agrotech
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 leading-relaxed">
+            Rantai pasok berpendingin (cold chain) mendistribusikan komoditas hortikultura segar langsung dari sentra tani Jawa Timur ke mitra horeka.
+          </p>
+</div>
+<div class="bg-surface-container-low/60 rounded-xl p-3 flex flex-col gap-2">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-on-surface-variant">Terkumpul: <strong class="text-on-surface">Rp 52.000.000</strong></span>
+<span class="font-bold text-primary">65%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container overflow-hidden">
+<div class="h-2 rounded-full bg-primary-container transition-all" style="width: 65%"></div>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant pt-0.5">
+<span>Target: Rp 80.000.000</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">group</span> 56 Backer
+            </span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-sm text-secondary">schedule</span>
+<span>17 Hari Tersisa</span>
+</div>
+<button class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary shadow-sm transition-all" onclick="openDetailModal('fresh-harvest')" type="button">
+<span>Lihat Detail</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- PAGINATION COMPONENT -->
+<section class="bg-surface-container-lowest rounded-2xl p-space-md shadow-sm mb-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="font-body-sm text-body-sm text-on-surface-variant">
+      Menampilkan <span class="font-semibold text-on-surface">1 - 6</span> dari <span class="font-semibold text-on-surface">35</span> UMKM terdaftar
+    </div>
+<div class="flex items-center gap-1.5">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm opacity-50 cursor-not-allowed flex items-center gap-1">
+<span class="material-symbols-outlined text-base">chevron_left</span>
+<span class="hidden sm:inline">Sebelumnya</span>
+</button>
+<button class="w-8 h-8 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-bold shadow-sm">1</button>
+<button class="w-8 h-8 rounded-lg bg-surface hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors">2</button>
+<button class="w-8 h-8 rounded-lg bg-surface hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors">3</button>
+<span class="px-1 text-on-surface-variant text-label-sm">...</span>
+<button class="w-8 h-8 rounded-lg bg-surface hover:bg-surface-container text-on-surface font-label-sm text-label-sm transition-colors">6</button>
+<button class="px-3 py-1.5 rounded-lg bg-surface hover:bg-surface-container text-primary font-label-sm text-label-sm transition-colors flex items-center gap-1">
+<span class="hidden sm:inline">Selanjutnya</span>
+<span class="material-symbols-outlined text-base">chevron_right</span>
+</button>
+</div>
+</section>
+<!-- LEGAL & COMPLIANCE DISCLAIMER BOX -->
+<section class="rounded-xl bg-surface-container-low/70 p-space-md mb-space-md flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-xl flex-shrink-0 mt-0.5">verified_user</span>
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Catatan Kepatuhan &amp; Simulasi Edukasi Finansial</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        Platform DanaIn Aja adalah purwarupa purwa-desain untuk tujuan studi kasus edukasi permodalan wirausaha. Seluruh angka target pendanaan, profil UMKM, nama mitra usaha, dan simulasi pembagian hasil merupakan data fiktif terstruktur. Platform ini tidak memfasilitasi transaksi uang riil, penghimpunan dana publik tanpa izin, maupun instrumen pasar modal sesungguhnya.
+      </p>
+</div>
+</section>
+<!-- MODAL: COMPREHENSIVE DETAIL PROFILE (Interactive Drawer / Dialog) -->
+<div class="fixed inset-0 z-50 hidden bg-inverse-surface/40 backdrop-blur-sm flex items-center justify-center p-space-md" id="detailModal">
+<div class="relative bg-surface-container-lowest rounded-2xl w-full max-w-4xl max-h-[921px] overflow-hidden flex flex-col shadow-2xl animate-in fade-in zoom-in-95 duration-200">
+<!-- Modal Top Bar -->
+<div class="p-space-lg bg-surface-container-low flex items-center justify-between gap-space-md flex-shrink-0">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center font-bold">
+<span class="material-symbols-outlined">coffee</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold" id="modalTitle">Detail Profil Usaha — Kopi Langit Artisan Roast</h2>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-xs">verified</span>
+                Terverifikasi
+              </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ID UMKM: UMKM-BDG-2025-014 • Sektor Kuliner</span>
+</div>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface hover:bg-surface-container flex items-center justify-center text-on-surface-variant transition-colors" onclick="closeDetailModal()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Modal Body (Scrollable Content across 9 Key Sections) -->
+<div class="overflow-y-auto p-space-lg space-y-space-lg flex-1">
+<!-- Summary Cards Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Target Pendanaan</span>
+<span class="font-numeric-md text-numeric-md text-on-surface font-bold">Rp 50.000.000</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Terkumpul (Simulasi)</span>
+<span class="font-numeric-md text-numeric-md text-primary font-bold">Rp 32.000.000</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Progres Capaian</span>
+<span class="font-numeric-md text-numeric-md text-tertiary font-bold">64% (24 Backer)</span>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sisa Kampanye</span>
+<span class="font-numeric-md text-numeric-md text-secondary font-bold">14 Hari</span>
+</div>
+</div>
+<!-- Section 1 & 2: Overview & Products -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-primary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">info</span>
+              1. Gambaran &amp; Latar Belakang Usaha
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
+              Didirikan pada tahun 2021 di kawasan Ciwidey &amp; Bandung Barat, Kopi Langit berfokus pada pemrosesan biji kopi arabika spesialisasi dataran tinggi. Usaha ini memberdayakan 12 petani kopi lokal secara kemitraan langsung (*fair trade*) demi menjamin mutu panen serta harga beli yang menyejahterakan pekebun.
+            </p>
+</div>
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-primary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">local_mall</span>
+              2. Produk &amp; Layanan Utama
+            </span>
+<ul class="font-body-sm text-body-sm text-on-surface space-y-1 list-disc list-inside">
+<li><strong>Roasted Beans B2B:</strong> Suplai kopi sangrai mingguan ke 18 mitra coffee shop.</li>
+<li><strong>Drip Bag Coffee:</strong> Kemasan praktis ramah lingkungan siap seduh eceran retail.</li>
+<li><strong>Edukasi Sangrai:</strong> Workshop berkala metode cupping dan profil sangrai.</li>
+</ul>
+</div>
+</div>
+<!-- Section 3 & 4: Location & Target Funding -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-primary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">pin_drop</span>
+              3. Lokasi &amp; Fasilitas Operasional
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
+              Fasilitas *central roastery* berlokasi di Jl. Raya Lembang No. 42, Bandung Barat seluas 180 m² yang dilengkapi area *temperature-controlled green beans storage* dan laboratorium uji rasa bersertifikat Q-Grader.
+            </p>
+</div>
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-primary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">savings</span>
+              4. Target &amp; Kebutuhan Pembiayaan
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
+              Total kebutuhan modal teralokasi: <strong>Rp 50.000.000</strong>. Pembiayaan diprioritaskan guna meningkatkan kapasitas pemrosesan sangrai dari 350 kg/bulan menjadi 900 kg/bulan seiring tingginya kontrak kerja sama baru.
+            </p>
+</div>
+</div>
+<!-- Section 5: Proposed Use of Funds (Chart Breakdown) -->
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-primary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">pie_chart</span>
+            5. Rencana Alokasi Penggunaan Dana
+          </span>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-2">
+<div class="p-space-sm rounded-lg bg-surface-container-lowest shadow-sm flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Peralatan Produksi (45%)</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Rp 22.500.000</span>
+<span class="text-label-sm text-on-surface-variant">Pengadaan mesin roaster semi-otomatis 15kg.</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest shadow-sm flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Bahan Baku Green Beans (35%)</span>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">Rp 17.500.000</span>
+<span class="text-label-sm text-on-surface-variant">Kontrak panen musim panas dengan 12 petani binaan.</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest shadow-sm flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pemasaran &amp; Distribusi (20%)</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">Rp 10.000.000</span>
+<span class="text-label-sm text-on-surface-variant">Upgrade kemasan nitrogen-flush &amp; booth pameran kopi.</span>
+</div>
+</div>
+</div>
+<!-- Section 6 & 7: Development Plan & Supporting Docs -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-primary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">timeline</span>
+              6. Rencana Pengembangan (Milestones)
+            </span>
+<div class="space-y-2 pt-1 font-body-sm text-body-sm text-on-surface">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span><strong>Q3 2025:</strong> Pemasangan dan kalibrasi unit roaster baru.</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span><strong>Q4 2025:</strong> Akuisisi 8 mitra kedai kopi baru di area Jabodetabek.</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span><strong>Q1 2026:</strong> Rilis kemasan retail biodegradable di minimarket lokal.</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-primary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">description</span>
+              7. Status Legalitas &amp; Dokumen Pendukung
+            </span>
+<div class="space-y-2 pt-1 font-body-sm text-body-sm text-on-surface">
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-lowest shadow-sm">
+<span>Nomor Induk Berusaha (NIB)</span>
+<span class="font-semibold text-tertiary text-label-sm">Terverifikasi ✓</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-lowest shadow-sm">
+<span>Sertifikasi Halal BPJPH</span>
+<span class="font-semibold text-secondary text-label-sm">Proses Validasi</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-lowest shadow-sm">
+<span>Laporan Keuangan Mini 2 Tahun</span>
+<span class="font-semibold text-tertiary text-label-sm">Tersimpan ✓</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Section 8 & 9: Risks & Latest Updates -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base text-secondary">warning</span>
+              8. Risiko Usaha &amp; Mitigasi
+            </span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+<strong>Risiko:</strong> Fluktuasi hasil panen akibat cuaca ekstrem di perkebunan Priangan.<br>
+<strong>Mitigasi:</strong> Kemitraan terbagi di 3 klaster elevasi berbeda dan penyediaan fasilitas rumah pengering kedap lembap.
+            </p>
+</div>
+<div class="flex flex-col gap-space-xs p-space-md rounded-xl bg-surface">
+<span class="font-label-md text-label-md text-tertiary uppercase font-bold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-base">update</span>
+              9. Pembaruan Usaha Terkini
+            </span>
+<div class="font-body-sm text-body-sm text-on-surface">
+<span class="font-label-sm text-label-sm text-on-surface-variant">18 Mei 2025</span>
+<p class="leading-relaxed mt-0.5">
+                "Uji coba sangrai batch pertama origin Gunung Puntang meraih cupping score 85.5 (Excellent Specialty). Siap diedarkan ke mitra kafe Bandung!"
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal Footer CTA -->
+<div class="p-space-md bg-surface-container-low flex flex-col sm:flex-row items-center justify-between gap-space-sm flex-shrink-0">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pratinjau profil simulasi terbuka untuk edukasi investor.</span>
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<button class="flex-1 sm:flex-none px-space-md py-2.5 rounded-lg bg-surface hover:bg-surface-container text-on-surface font-label-md text-label-md transition-colors" onclick="closeDetailModal()" type="button">
+            Tutup Pratinjau
+          </button>
+<button class="flex-1 sm:flex-none px-space-md py-2.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container shadow-sm transition-all flex items-center justify-center gap-1" onclick="alert('Ini adalah prototipe edukasi. Fitur pendanaan riil dinonaktifkan dalam mode simulasi.')" type="button">
+<span>Dukung Simulasi Ini</span>
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- HOW IT WORKS MODAL -->
+<div class="fixed inset-0 z-50 hidden bg-inverse-surface/40 backdrop-blur-sm flex items-center justify-center p-space-md" id="workingsModal">
+<div class="bg-surface-container-lowest rounded-2xl w-full max-w-2xl p-space-lg shadow-2xl flex flex-col gap-space-md animate-in fade-in zoom-in-95 duration-200">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-2xl">school</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Cara Kerja Penjajakan UMKM</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface hover:bg-surface-container flex items-center justify-center text-on-surface-variant" onclick="closeWorkingsModal()">
+<span class="material-symbols-outlined text-base">close</span>
+</button>
+</div>
+<div class="space-y-3 font-body-md text-body-md text-on-surface-variant">
+<div class="flex items-start gap-3 p-3 rounded-xl bg-surface">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center text-sm flex-shrink-0">1</div>
+<p><strong>Pilih Sektor Usaha:</strong> Pelajari profil usaha mikro dan kecil berdasarkan rekam jejak, transparansi proyeksi, dan portofolio produk nyata.</p>
+</div>
+<div class="flex items-start gap-3 p-3 rounded-xl bg-surface">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center text-sm flex-shrink-0">2</div>
+<p><strong>Evaluasi Alokasi Dana:</strong> Cermati rincian belanja modal (*capex*) dan belanja operasional (*opex*) sebelum menyalurkan komitmen simulasi.</p>
+</div>
+<div class="flex items-start gap-3 p-3 rounded-xl bg-surface">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center text-sm flex-shrink-0">3</div>
+<p><strong>Pantau Milestone Bersama:</strong> Ikuti laporan berkala dan pembaruan operasional usaha binaan langsung dari dashboard investor Anda.</p>
+</div>
+</div>
+<div class="flex justify-end pt-2">
+<button class="px-space-md py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors" onclick="closeWorkingsModal()" type="button">
+          Saya Mengerti
+        </button>
+</div>
+</div>
+</div>
+<!-- CLIENT-SIDE INTERACTIONS -->
+<script>
+    // Detail Modal Logic
+    const profileDetails = {
+      'kopi-langit': {
+        title: 'Detail Profil Usaha — Kopi Langit Artisan Roast',
+        id: 'UMKM-BDG-2025-014',
+        sector: 'Sektor Kuliner'
+      },
+      'tani-sejahtera': {
+        title: 'Detail Profil Usaha — Tani Sejahtera Hidroponik',
+        id: 'UMKM-BGR-2025-008',
+        sector: 'Sektor Agribisnis'
+      },
+      'anyam-kita': {
+        title: 'Detail Profil Usaha — Anyam Kita Sustainable Craft',
+        id: 'UMKM-YOG-2025-021',
+        sector: 'Sektor Kerajinan'
+      },
+      'batik-nusantara': {
+        title: 'Detail Profil Usaha — Batik Nusantara Heritage',
+        id: 'UMKM-SLO-2025-019',
+        sector: 'Sektor Fashion'
+      },
+      'rasa-lokal': {
+        title: 'Detail Profil Usaha — Rasa Lokal Bumbu & Sambal',
+        id: 'UMKM-JKT-2025-004',
+        sector: 'Sektor Kuliner'
+      },
+      'fresh-harvest': {
+        title: 'Detail Profil Usaha — Fresh Harvest Agrotech',
+        id: 'UMKM-SBY-2025-012',
+        sector: 'Sektor Agribisnis'
+      }
+    };
+
+    function openDetailModal(key) {
+      const modal = document.getElementById('detailModal');
+      const titleElem = document.getElementById('modalTitle');
+      if (profileDetails[key]) {
+        titleElem.textContent = profileDetails[key].title;
+      }
+      modal.classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeDetailModal() {
+      const modal = document.getElementById('detailModal');
+      modal.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    function openWorkingsModal() {
+      document.getElementById('workingsModal').classList.remove('hidden');
+    }
+
+    function closeWorkingsModal() {
+      document.getElementById('workingsModal').classList.add('hidden');
+    }
+
+    function toggleBookmark(btn) {
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (icon.textContent === 'bookmark') {
+        icon.textContent = 'bookmark_added';
+        btn.classList.add('text-primary');
+      } else {
+        icon.textContent = 'bookmark';
+        btn.classList.remove('text-primary');
+      }
+    }
+
+    // Filter Logic
+    let currentCategory = 'all';
+    const searchInput = document.getElementById('searchInput');
+    const locationSelect = document.getElementById('locationSelect');
+    const cards = document.querySelectorAll('.umkm-card');
+
+    function applyFilters() {
+      const query = (searchInput.value || '').toLowerCase().trim();
+      const loc = locationSelect.value;
+
+      cards.forEach(card => {
+        const name = (card.getAttribute('data-name') || '').toLowerCase();
+        const cat = card.getAttribute('data-category');
+        const cardLoc = card.getAttribute('data-location');
+
+        const matchesQuery = !query || name.includes(query);
+        const matchesCategory = currentCategory === 'all' || cat === currentCategory;
+        const matchesLocation = loc === 'all' || cardLoc === loc;
+
+        if (matchesQuery && matchesCategory && matchesLocation) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    function setCategoryFilter(category, button) {
+      currentCategory = category;
+      document.querySelectorAll('.category-chip').forEach(btn => {
+        btn.className = 'category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0';
+      });
+      button.className = 'category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-primary text-on-primary shadow-sm flex items-center gap-1 flex-shrink-0';
+      applyFilters();
+    }
+
+    function resetFilters() {
+      currentCategory = 'all';
+      searchInput.value = '';
+      locationSelect.value = 'all';
+      document.querySelectorAll('.category-chip').forEach((btn, index) => {
+        if (index === 0) {
+          btn.className = 'category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-primary text-on-primary shadow-sm flex items-center gap-1 flex-shrink-0';
+        } else {
+          btn.className = 'category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all bg-surface hover:bg-surface-container text-on-surface-variant flex items-center gap-1 flex-shrink-0';
+        }
+      });
+      applyFilters();
+    }
+
+    searchInput.addEventListener('input', applyFilters);
+    locationSelect.addEventListener('change', applyFilters);
+
+    // View Toggle
+    function toggleView(mode) {
+      const container = document.getElementById('umkmContainer');
+      const gridBtn = document.getElementById('viewGridBtn');
+      const listBtn = document.getElementById('viewListBtn');
+
+      if (mode === 'list') {
+        container.className = 'grid grid-cols-1 gap-space-md mb-space-xl';
+        listBtn.className = 'p-1.5 rounded bg-surface-container-high text-primary transition-all';
+        gridBtn.className = 'p-1.5 rounded text-on-surface-variant hover:text-on-surface transition-all';
+      } else {
+        container.className = 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-space-lg mb-space-xl';
+        gridBtn.className = 'p-1.5 rounded bg-surface-container-high text-primary transition-all';
+        listBtn.className = 'p-1.5 rounded text-on-surface-variant hover:text-on-surface transition-all';
+      }
+    }
+  </script>
+</div></main><footer class="w-full py-space-md px-space-xl bg-surface-container-lowest border-t border-outline-variant/20"><div class="flex flex-col sm:flex-row items-center justify-between text-on-surface-variant font-body-sm text-body-sm gap-space-sm"><span>© 2024 DanaIn Aja. Platform Pendanaan &amp; Investasi UMKM Terpercaya.</span><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a><a class="hover:text-primary transition-colors" href="#">Ketentuan Layanan</a><a class="hover:text-primary transition-colors" href="#">Pusat Bantuan</a></div></div></footer></div></div>
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

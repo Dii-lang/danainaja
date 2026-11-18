@@ -1,0 +1,20 @@
+# Frontend dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local credentials and Python environments
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/.venv/
+backend/**/__pycache__/
+backend/**/*.py[cod]
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
